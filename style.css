@@ -1,0 +1,31 @@
+body {
+    background-image: url(images/bg-hero-mobile.svg);
+}
+
+header {
+    /* width: 95%; */
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid black; */
+    margin-top: 1.5rem;
+}
+
+header > .logo {
+    width: 7rem;
+    /* margin-top: 1rem;
+    margin-left: 0.5rem; */
+}
+
+header > button {
+    border: none;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 1rem -0.35rem #000000;
+    padding: 0.2rem 1.25rem;
+}
+
+.mockups {
+    width: 10rem;
+}
